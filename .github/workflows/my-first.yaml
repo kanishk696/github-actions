@@ -6,6 +6,9 @@ jobs:
     First-job:
         runs-on: ubuntu-latest
         steps:
+        - name: checkout
+          uses: actions/checkout@v7
+          
         - name: welcome message
           run: echo "My first workflow"
 
