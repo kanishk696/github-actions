@@ -6,11 +6,11 @@ jobs:
     First-job:
         runs-on: ubuntu-latest
         steps:
-            - name: welcome message
-            run: echo "My first workflow"
+        - name: welcome message
+          run: echo "My first workflow"
 
-            - name: list files
-             run: ls
+        - name: list files
+          run: ls
 
-            - name: read file
-              run: cat README.md
+        - name: read file
+          run: cat README.md
